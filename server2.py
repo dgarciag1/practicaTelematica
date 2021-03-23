@@ -83,7 +83,7 @@ class Mom:
                                 if (len(self.colas) == 0):
                                         respuesta = 'No hay colas en el MOM\n'
                                 else:
-                                        else:
+                                       
                                         for cola in self.colas:
                                                 idCola = cola
                                                 respuesta = respuesta + f'Cola, Token de identificación: {self.colas[idCola].getId()}: {self.colas[idCola].getNombre()} estado: {self.colas[idCola].getEstado()}\n'

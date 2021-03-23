@@ -28,7 +28,7 @@ class Aplicacion:
 		#mensaje = "mensaje".encode()
 		#f = Fernet(clave)
 		desencriptado = self.f.decrypt(self.claveAcceso)
-		return str(desencriptado)
+		return str(desencriptado.decode())
 
 	def genera_clave(self):
 	    clave = Fernet.generate_key()
